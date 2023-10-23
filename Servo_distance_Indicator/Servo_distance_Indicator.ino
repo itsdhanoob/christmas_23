@@ -1,5 +1,4 @@
 #include <Servo.h>
-
 #include <NewPing.h>
 
 const int ServoPin = 10;

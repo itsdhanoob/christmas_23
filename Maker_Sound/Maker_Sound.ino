@@ -13,7 +13,7 @@ void loop()
    {
     if (digitalRead(8) == 1)
      {
-      tone(9, 69, 1000); // play tone 25 (C#2 = 69 Hz)
+      tone(9, 169, 1000); // play tone 25 (C#2 = 69 Hz)
      }
     if (digitalRead(10) == 1)
      {
