@@ -2,8 +2,8 @@
 
 #define PIN            9
 #define NUMPIXELS      24
-int delayval = 50;
-int currentColor = 0;
+int delayval = 5;
+int currentColor = 100;
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
